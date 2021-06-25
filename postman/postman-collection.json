@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "final-git-test",
-    "_postman_id": "c5a6b79d-2a53-46a7-bcbc-3ad3c9dc969a",
+    "_postman_id": "e3db4777-84fe-449a-9e6e-d3517024b179",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
   "item": [
@@ -32,7 +32,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Nora Mosciski\",\n  \"password\": \"eL6C1pN8gcnXJFW\",\n  \"email\": \"Emilio70@yahoo.com\",\n  \"name\": \"Cory Roberts\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Mack Doyle\",\n  \"password\": \"udpJM7rJGJrYTZI\",\n  \"email\": \"Belle_Fritsch99@hotmail.com\",\n  \"name\": \"Kathy Bernhard\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -132,7 +132,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Nora Mosciski\",\n      \"password\": \"eL6C1pN8gcnXJFW\",\n      \"email\": \"Emilio70@yahoo.com\",\n      \"name\": \"Cory Roberts\",\n      \"isDeleted\": true,\n      \"isActive\": true,\n      \"role\": 1\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Mack Doyle\",\n      \"password\": \"udpJM7rJGJrYTZI\",\n      \"email\": \"Belle_Fritsch99@hotmail.com\",\n      \"name\": \"Kathy Bernhard\",\n      \"isDeleted\": true,\n      \"isActive\": false,\n      \"role\": 1\n    }\n  ]\n}"
                 },
                 "description": ""
               },
@@ -182,7 +182,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Nora Mosciski\",\n  \"password\": \"eL6C1pN8gcnXJFW\",\n  \"email\": \"Emilio70@yahoo.com\",\n  \"name\": \"Cory Roberts\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Mack Doyle\",\n  \"password\": \"udpJM7rJGJrYTZI\",\n  \"email\": \"Belle_Fritsch99@hotmail.com\",\n  \"name\": \"Kathy Bernhard\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -328,7 +328,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Nora Mosciski\",\n  \"password\": \"eL6C1pN8gcnXJFW\",\n  \"email\": \"Emilio70@yahoo.com\",\n  \"name\": \"Cory Roberts\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Mack Doyle\",\n  \"password\": \"udpJM7rJGJrYTZI\",\n  \"email\": \"Belle_Fritsch99@hotmail.com\",\n  \"name\": \"Kathy Bernhard\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -393,7 +393,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"60d5ced5c656650da6da9282\",\n  \"newPassword\": \"YourNewPassword\"\n}"
+                  "raw": "{\n  \"userId\": \"60d5cf4d261b820dd72696e0\",\n  \"newPassword\": \"YourNewPassword\"\n}"
                 },
                 "description": ""
               },
@@ -450,7 +450,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Nora Mosciski\",\n  \"password\": \"eL6C1pN8gcnXJFW\",\n  \"email\": \"Emilio70@yahoo.com\",\n  \"name\": \"Cory Roberts\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Mack Doyle\",\n  \"password\": \"udpJM7rJGJrYTZI\",\n  \"email\": \"Belle_Fritsch99@hotmail.com\",\n  \"name\": \"Kathy Bernhard\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -550,7 +550,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Nora Mosciski\",\n      \"password\": \"eL6C1pN8gcnXJFW\",\n      \"email\": \"Emilio70@yahoo.com\",\n      \"name\": \"Cory Roberts\",\n      \"isDeleted\": true,\n      \"isActive\": true,\n      \"role\": 1\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Mack Doyle\",\n      \"password\": \"udpJM7rJGJrYTZI\",\n      \"email\": \"Belle_Fritsch99@hotmail.com\",\n      \"name\": \"Kathy Bernhard\",\n      \"isDeleted\": true,\n      \"isActive\": false,\n      \"role\": 1\n    }\n  ]\n}"
                 },
                 "description": ""
               },
@@ -600,7 +600,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Nora Mosciski\",\n  \"password\": \"eL6C1pN8gcnXJFW\",\n  \"email\": \"Emilio70@yahoo.com\",\n  \"name\": \"Cory Roberts\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Mack Doyle\",\n  \"password\": \"udpJM7rJGJrYTZI\",\n  \"email\": \"Belle_Fritsch99@hotmail.com\",\n  \"name\": \"Kathy Bernhard\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -746,7 +746,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Nora Mosciski\",\n  \"password\": \"eL6C1pN8gcnXJFW\",\n  \"email\": \"Emilio70@yahoo.com\",\n  \"name\": \"Cory Roberts\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Mack Doyle\",\n  \"password\": \"udpJM7rJGJrYTZI\",\n  \"email\": \"Belle_Fritsch99@hotmail.com\",\n  \"name\": \"Kathy Bernhard\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -811,7 +811,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"60d5ced5c656650da6da9283\",\n  \"newPassword\": \"YourNewPassword\"\n}"
+                  "raw": "{\n  \"userId\": \"60d5cf4d261b820dd72696e1\",\n  \"newPassword\": \"YourNewPassword\"\n}"
                 },
                 "description": ""
               },
