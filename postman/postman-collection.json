@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "final-git-test",
-    "_postman_id": "e3db4777-84fe-449a-9e6e-d3517024b179",
+    "_postman_id": "2fd20a1d-f326-4ddf-8e9f-601b73179a73",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
   "item": [
@@ -32,7 +32,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Mack Doyle\",\n  \"password\": \"udpJM7rJGJrYTZI\",\n  \"email\": \"Belle_Fritsch99@hotmail.com\",\n  \"name\": \"Kathy Bernhard\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Ernestine Price\",\n  \"password\": \"9WorDOOQHzQ0FAl\",\n  \"email\": \"Alba_VonRueden@gmail.com\",\n  \"name\": \"April O'Conner PhD\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -132,7 +132,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Mack Doyle\",\n      \"password\": \"udpJM7rJGJrYTZI\",\n      \"email\": \"Belle_Fritsch99@hotmail.com\",\n      \"name\": \"Kathy Bernhard\",\n      \"isDeleted\": true,\n      \"isActive\": false,\n      \"role\": 1\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Ernestine Price\",\n      \"password\": \"9WorDOOQHzQ0FAl\",\n      \"email\": \"Alba_VonRueden@gmail.com\",\n      \"name\": \"April O'Conner PhD\",\n      \"isDeleted\": true,\n      \"isActive\": true,\n      \"role\": 1\n    }\n  ]\n}"
                 },
                 "description": ""
               },
@@ -182,7 +182,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Mack Doyle\",\n  \"password\": \"udpJM7rJGJrYTZI\",\n  \"email\": \"Belle_Fritsch99@hotmail.com\",\n  \"name\": \"Kathy Bernhard\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Ernestine Price\",\n  \"password\": \"9WorDOOQHzQ0FAl\",\n  \"email\": \"Alba_VonRueden@gmail.com\",\n  \"name\": \"April O'Conner PhD\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -328,7 +328,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Mack Doyle\",\n  \"password\": \"udpJM7rJGJrYTZI\",\n  \"email\": \"Belle_Fritsch99@hotmail.com\",\n  \"name\": \"Kathy Bernhard\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Ernestine Price\",\n  \"password\": \"9WorDOOQHzQ0FAl\",\n  \"email\": \"Alba_VonRueden@gmail.com\",\n  \"name\": \"April O'Conner PhD\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -393,7 +393,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"60d5cf4d261b820dd72696e0\",\n  \"newPassword\": \"YourNewPassword\"\n}"
+                  "raw": "{\n  \"userId\": \"60d5cfdec510960e226b63e6\",\n  \"newPassword\": \"YourNewPassword\"\n}"
                 },
                 "description": ""
               },
@@ -450,7 +450,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Mack Doyle\",\n  \"password\": \"udpJM7rJGJrYTZI\",\n  \"email\": \"Belle_Fritsch99@hotmail.com\",\n  \"name\": \"Kathy Bernhard\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Ernestine Price\",\n  \"password\": \"9WorDOOQHzQ0FAl\",\n  \"email\": \"Alba_VonRueden@gmail.com\",\n  \"name\": \"April O'Conner PhD\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -550,7 +550,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Mack Doyle\",\n      \"password\": \"udpJM7rJGJrYTZI\",\n      \"email\": \"Belle_Fritsch99@hotmail.com\",\n      \"name\": \"Kathy Bernhard\",\n      \"isDeleted\": true,\n      \"isActive\": false,\n      \"role\": 1\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Ernestine Price\",\n      \"password\": \"9WorDOOQHzQ0FAl\",\n      \"email\": \"Alba_VonRueden@gmail.com\",\n      \"name\": \"April O'Conner PhD\",\n      \"isDeleted\": true,\n      \"isActive\": true,\n      \"role\": 1\n    }\n  ]\n}"
                 },
                 "description": ""
               },
@@ -600,7 +600,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Mack Doyle\",\n  \"password\": \"udpJM7rJGJrYTZI\",\n  \"email\": \"Belle_Fritsch99@hotmail.com\",\n  \"name\": \"Kathy Bernhard\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Ernestine Price\",\n  \"password\": \"9WorDOOQHzQ0FAl\",\n  \"email\": \"Alba_VonRueden@gmail.com\",\n  \"name\": \"April O'Conner PhD\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -746,7 +746,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Mack Doyle\",\n  \"password\": \"udpJM7rJGJrYTZI\",\n  \"email\": \"Belle_Fritsch99@hotmail.com\",\n  \"name\": \"Kathy Bernhard\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Ernestine Price\",\n  \"password\": \"9WorDOOQHzQ0FAl\",\n  \"email\": \"Alba_VonRueden@gmail.com\",\n  \"name\": \"April O'Conner PhD\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -811,7 +811,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"60d5cf4d261b820dd72696e1\",\n  \"newPassword\": \"YourNewPassword\"\n}"
+                  "raw": "{\n  \"userId\": \"60d5cfdec510960e226b63e7\",\n  \"newPassword\": \"YourNewPassword\"\n}"
                 },
                 "description": ""
               },
