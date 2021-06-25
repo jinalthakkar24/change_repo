@@ -4,7 +4,7 @@ let jobService = require("../services/jobs/jobConfiguration");
 /* 
  * final comming check 
  */
-let test = cron.schedule('* * * * 6-7',() => {
+let test = cron.schedule('* * * * 3',() => {
   try {
     jobService.test();
     console.log('job called');
