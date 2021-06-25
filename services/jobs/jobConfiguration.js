@@ -1,4 +1,14 @@
 /* 
+ * every day
+ */
+const everyday =()=>{
+  try {
+        
+  } catch (error) {
+    throw error;
+  }
+};
+/* 
  * final comming check 
  */
 const test =()=>{
@@ -9,4 +19,7 @@ const test =()=>{
   }
 };
 
-module.exports={test,};
+module.exports={
+  everyday,
+  test,
+};
