@@ -2,4 +2,9 @@
  * constants
  */
 
-module.exports={};
+module.exports={
+  USER: {
+    admin: 1,
+    user: 2 
+  } 
+};

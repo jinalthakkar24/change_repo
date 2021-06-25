@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "final-git-test",
-    "_postman_id": "2e3c93e6-544b-4172-8a7c-98d86a79d80f",
+    "_postman_id": "c5a6b79d-2a53-46a7-bcbc-3ad3c9dc969a",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
   "item": [
@@ -32,7 +32,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Dr. Rafael Bartell\",\n  \"password\": \"Mx8j0geOyKq925t\",\n  \"email\": \"Ryann.Goyette19@yahoo.com\",\n  \"name\": \"Sylvester Howell\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Nora Mosciski\",\n  \"password\": \"eL6C1pN8gcnXJFW\",\n  \"email\": \"Emilio70@yahoo.com\",\n  \"name\": \"Cory Roberts\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -132,7 +132,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Dr. Rafael Bartell\",\n      \"password\": \"Mx8j0geOyKq925t\",\n      \"email\": \"Ryann.Goyette19@yahoo.com\",\n      \"name\": \"Sylvester Howell\",\n      \"isDeleted\": true,\n      \"isActive\": false,\n      \"role\": 1\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Nora Mosciski\",\n      \"password\": \"eL6C1pN8gcnXJFW\",\n      \"email\": \"Emilio70@yahoo.com\",\n      \"name\": \"Cory Roberts\",\n      \"isDeleted\": true,\n      \"isActive\": true,\n      \"role\": 1\n    }\n  ]\n}"
                 },
                 "description": ""
               },
@@ -182,7 +182,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Dr. Rafael Bartell\",\n  \"password\": \"Mx8j0geOyKq925t\",\n  \"email\": \"Ryann.Goyette19@yahoo.com\",\n  \"name\": \"Sylvester Howell\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Nora Mosciski\",\n  \"password\": \"eL6C1pN8gcnXJFW\",\n  \"email\": \"Emilio70@yahoo.com\",\n  \"name\": \"Cory Roberts\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -328,7 +328,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Dr. Rafael Bartell\",\n  \"password\": \"Mx8j0geOyKq925t\",\n  \"email\": \"Ryann.Goyette19@yahoo.com\",\n  \"name\": \"Sylvester Howell\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Nora Mosciski\",\n  \"password\": \"eL6C1pN8gcnXJFW\",\n  \"email\": \"Emilio70@yahoo.com\",\n  \"name\": \"Cory Roberts\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -393,7 +393,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"60d5ce20f506ca0d3873d6cc\",\n  \"newPassword\": \"YourNewPassword\"\n}"
+                  "raw": "{\n  \"userId\": \"60d5ced5c656650da6da9282\",\n  \"newPassword\": \"YourNewPassword\"\n}"
                 },
                 "description": ""
               },
@@ -450,7 +450,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Dr. Rafael Bartell\",\n  \"password\": \"Mx8j0geOyKq925t\",\n  \"email\": \"Ryann.Goyette19@yahoo.com\",\n  \"name\": \"Sylvester Howell\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Nora Mosciski\",\n  \"password\": \"eL6C1pN8gcnXJFW\",\n  \"email\": \"Emilio70@yahoo.com\",\n  \"name\": \"Cory Roberts\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -550,7 +550,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Dr. Rafael Bartell\",\n      \"password\": \"Mx8j0geOyKq925t\",\n      \"email\": \"Ryann.Goyette19@yahoo.com\",\n      \"name\": \"Sylvester Howell\",\n      \"isDeleted\": true,\n      \"isActive\": false,\n      \"role\": 1\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Nora Mosciski\",\n      \"password\": \"eL6C1pN8gcnXJFW\",\n      \"email\": \"Emilio70@yahoo.com\",\n      \"name\": \"Cory Roberts\",\n      \"isDeleted\": true,\n      \"isActive\": true,\n      \"role\": 1\n    }\n  ]\n}"
                 },
                 "description": ""
               },
@@ -600,7 +600,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Dr. Rafael Bartell\",\n  \"password\": \"Mx8j0geOyKq925t\",\n  \"email\": \"Ryann.Goyette19@yahoo.com\",\n  \"name\": \"Sylvester Howell\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Nora Mosciski\",\n  \"password\": \"eL6C1pN8gcnXJFW\",\n  \"email\": \"Emilio70@yahoo.com\",\n  \"name\": \"Cory Roberts\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -746,7 +746,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Dr. Rafael Bartell\",\n  \"password\": \"Mx8j0geOyKq925t\",\n  \"email\": \"Ryann.Goyette19@yahoo.com\",\n  \"name\": \"Sylvester Howell\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Nora Mosciski\",\n  \"password\": \"eL6C1pN8gcnXJFW\",\n  \"email\": \"Emilio70@yahoo.com\",\n  \"name\": \"Cory Roberts\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -811,7 +811,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"60d5ce20f506ca0d3873d6cd\",\n  \"newPassword\": \"YourNewPassword\"\n}"
+                  "raw": "{\n  \"userId\": \"60d5ced5c656650da6da9283\",\n  \"newPassword\": \"YourNewPassword\"\n}"
                 },
                 "description": ""
               },
