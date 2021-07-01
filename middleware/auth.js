@@ -1,6 +1,7 @@
 const passport = require('passport');
 const {
   ROLE_RIGHTS, USER_ROLE 
+  ,ADMIN_CUSTOM_ROUTES  
 } = require('../config/authConstant');
 const util = require("../utils/messages");
 
@@ -33,7 +34,7 @@ const verifyCallback = (req, resolve, reject, requiredRights) => async (err, use
 const auth = (...requiredRights) => async (req, res, next) => {
 
   let url =req.originalUrl;
-  if(url.includes('admin')){
+  if(url.includes('admin') || ADMIN_CUSTOM_ROUTES.includes(url)){    
     return new Promise((resolve, reject) => {
       passport.authenticate('admin-rule', { session: false }, verifyCallback(req, resolve, reject, requiredRights))(
         req,

@@ -1,14 +1,327 @@
 {
   "info": {
     "name": "final-git-test",
-    "_postman_id": "0c66fbdc-71c2-47f2-9bf6-e8a6275192c4",
+    "_postman_id": "852855f1-1b06-498f-8db0-d9ae410734ad",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
   "item": [
     {
+      "name": "admin",
+      "description": "ftgvf",
+      "item": [
+        {
+          "name": "adminRoutes",
+          "description": "",
+          "item": [
+            {
+              "name": "/HYTGT",
+              "request": {
+                "url": "http://localhost:3000/HYTGT",
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Admin",
       "description": "Admin APIs",
       "item": [
+        {
+          "name": "testgit",
+          "description": "testgit Model APIs",
+          "item": [
+            {
+              "name": "addtestgit",
+              "request": {
+                "url": "http://localhost:3000/admin/testgit/create",
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"name\": \"Rita Tromp\",\n  \"enNo\": 572,\n  \"isDeleted\": true,\n  \"isActive\": false\n}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            },
+            {
+              "name": "findAlltestgit",
+              "request": {
+                "url": "http://localhost:3000/admin/testgit/list",
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"query\": {},\n  \"options\": {\n    \"select\": [\n      \"field 1\",\n      \"field 2\"\n    ],\n    \"collation\": \"\",\n    \"sort\": \"\",\n    \"populate\": \"\",\n    \"projection\": \"\",\n    \"lean\": false,\n    \"leanWithId\": true,\n    \"offset\": 0,\n    \"page\": 1,\n    \"limit\": 10,\n    \"customLabels\": {},\n    \"pagination\": true,\n    \"useEstimatedCount\": false,\n    \"useCustomCountFn\": false,\n    \"forceCountFn\": false,\n    \"read\": {},\n    \"options\": {}\n  },\n  \"isCountOnly\": false\n}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            },
+            {
+              "name": "gettestgitCount",
+              "request": {
+                "url": "http://localhost:3000/admin/testgit/count",
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"where\": {\n    \"isActive\": true\n  }\n}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            },
+            {
+              "name": "aggregatetestgit",
+              "request": {
+                "url": "http://localhost:3000/admin/testgit/aggregate",
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"group\": {\n    \"avg\": {\n      \"key\": {\n        \"_id\": [\n          \"field1\",\n          \"field2\"\n        ]\n      }\n    },\n    \"sum\": {\n      \"key\": {\n        \"_id\": \"field\"\n      }\n    },\n    \"min\": {\n      \"key\": {\n        \"_id\": \"field\"\n      }\n    },\n    \"max\": {\n      \"key\": {\n        \"_id\": \"field\"\n      }\n    },\n    \"addToSet\": {\n      \"key\": {\n        \"_id\": \"field\"\n      }\n    }\n  },\n  \"match\": {\n    \"key\": {\n      \"field\": \"value\"\n    }\n  },\n  \"project\": {\n    \"gt\": {\n      \"key\": {\n        \"field\": \"value\"\n      }\n    }\n  }\n}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            },
+            {
+              "name": "insertBulktestgit",
+              "request": {
+                "url": "http://localhost:3000/admin/testgit/addBulk",
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"data\": [\n    {\n      \"name\": \"Rita Tromp\",\n      \"enNo\": 572,\n      \"isDeleted\": true,\n      \"isActive\": false\n    }\n  ]\n}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            },
+            {
+              "name": "gettestgit",
+              "request": {
+                "url": "http://localhost:3000/admin/testgit/{{id}}",
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            },
+            {
+              "name": "updatetestgit",
+              "request": {
+                "url": "http://localhost:3000/admin/testgit/update/{{id}}",
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"name\": \"Rita Tromp\",\n  \"enNo\": 572,\n  \"isDeleted\": true,\n  \"isActive\": false\n}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            },
+            {
+              "name": "partialupdatetestgit",
+              "request": {
+                "url": "http://localhost:3000/admin/testgit/partial-update/{{id}}",
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"isActive\": true,\n  \"isDeleted\": false\n}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            },
+            {
+              "name": "softDeletetestgit",
+              "request": {
+                "url": "http://localhost:3000/admin/testgit/softDelete/{{id}}",
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            },
+            {
+              "name": "updateBulktestgit",
+              "request": {
+                "url": "http://localhost:3000/admin/testgit/updateBulk",
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"filter\": {\n    \"isActive\": true\n  },\n  \"data\": {\n    \"isDeleted\": false\n  }\n}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            },
+            {
+              "name": "deletetestgit",
+              "request": {
+                "url": "http://localhost:3000/admin/testgit/delete/{{id}}",
+                "method": "DELETE",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"isWarning\": true\n}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            }
+          ]
+        },
         {
           "name": "user",
           "description": "user Model APIs",
@@ -32,7 +345,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Margaret Yundt\",\n  \"password\": \"GTXcghy4Bm0xSjp\",\n  \"email\": \"Curtis.Bosco@yahoo.com\",\n  \"name\": \"Kirk Kiehn Sr.\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Miss Brendan Bogisich\",\n  \"password\": \"sDMKm0EUd5f9A6y\",\n  \"email\": \"Linnea_Armstrong16@gmail.com\",\n  \"name\": \"Dan Schaden DVM\",\n  \"isDeleted\": false,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -132,7 +445,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Margaret Yundt\",\n      \"password\": \"GTXcghy4Bm0xSjp\",\n      \"email\": \"Curtis.Bosco@yahoo.com\",\n      \"name\": \"Kirk Kiehn Sr.\",\n      \"isDeleted\": true,\n      \"isActive\": false,\n      \"role\": 1\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Miss Brendan Bogisich\",\n      \"password\": \"sDMKm0EUd5f9A6y\",\n      \"email\": \"Linnea_Armstrong16@gmail.com\",\n      \"name\": \"Dan Schaden DVM\",\n      \"isDeleted\": false,\n      \"isActive\": false,\n      \"role\": 1\n    }\n  ]\n}"
                 },
                 "description": ""
               },
@@ -182,7 +495,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Margaret Yundt\",\n  \"password\": \"GTXcghy4Bm0xSjp\",\n  \"email\": \"Curtis.Bosco@yahoo.com\",\n  \"name\": \"Kirk Kiehn Sr.\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Miss Brendan Bogisich\",\n  \"password\": \"sDMKm0EUd5f9A6y\",\n  \"email\": \"Linnea_Armstrong16@gmail.com\",\n  \"name\": \"Dan Schaden DVM\",\n  \"isDeleted\": false,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -328,7 +641,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Margaret Yundt\",\n  \"password\": \"GTXcghy4Bm0xSjp\",\n  \"email\": \"Curtis.Bosco@yahoo.com\",\n  \"name\": \"Kirk Kiehn Sr.\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Miss Brendan Bogisich\",\n  \"password\": \"sDMKm0EUd5f9A6y\",\n  \"email\": \"Linnea_Armstrong16@gmail.com\",\n  \"name\": \"Dan Schaden DVM\",\n  \"isDeleted\": false,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -393,7 +706,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"60d5d17a3ab3ea0e9cfc0838\",\n  \"newPassword\": \"YourNewPassword\"\n}"
+                  "raw": "{\n  \"userId\": \"60dda489ebd0ec00f6a02253\",\n  \"newPassword\": \"YourNewPassword\"\n}"
                 },
                 "description": ""
               },
@@ -428,6 +741,287 @@
       "description": "Client APIs",
       "item": [
         {
+          "name": "testgit",
+          "description": "testgit Model APIs",
+          "item": [
+            {
+              "name": "addtestgit",
+              "request": {
+                "url": "http://localhost:3000/client/api/v1/testgit/create",
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"name\": \"Rita Tromp\",\n  \"enNo\": 572,\n  \"isDeleted\": true,\n  \"isActive\": false\n}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            },
+            {
+              "name": "findAlltestgit",
+              "request": {
+                "url": "http://localhost:3000/client/api/v1/testgit/list",
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"query\": {},\n  \"options\": {\n    \"select\": [\n      \"field 1\",\n      \"field 2\"\n    ],\n    \"collation\": \"\",\n    \"sort\": \"\",\n    \"populate\": \"\",\n    \"projection\": \"\",\n    \"lean\": false,\n    \"leanWithId\": true,\n    \"offset\": 0,\n    \"page\": 1,\n    \"limit\": 10,\n    \"customLabels\": {},\n    \"pagination\": true,\n    \"useEstimatedCount\": false,\n    \"useCustomCountFn\": false,\n    \"forceCountFn\": false,\n    \"read\": {},\n    \"options\": {}\n  },\n  \"isCountOnly\": false\n}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            },
+            {
+              "name": "gettestgitCount",
+              "request": {
+                "url": "http://localhost:3000/client/api/v1/testgit/count",
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"where\": {\n    \"isActive\": true\n  }\n}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            },
+            {
+              "name": "aggregatetestgit",
+              "request": {
+                "url": "http://localhost:3000/client/api/v1/testgit/aggregate",
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"group\": {\n    \"avg\": {\n      \"key\": {\n        \"_id\": [\n          \"field1\",\n          \"field2\"\n        ]\n      }\n    },\n    \"sum\": {\n      \"key\": {\n        \"_id\": \"field\"\n      }\n    },\n    \"min\": {\n      \"key\": {\n        \"_id\": \"field\"\n      }\n    },\n    \"max\": {\n      \"key\": {\n        \"_id\": \"field\"\n      }\n    },\n    \"addToSet\": {\n      \"key\": {\n        \"_id\": \"field\"\n      }\n    }\n  },\n  \"match\": {\n    \"key\": {\n      \"field\": \"value\"\n    }\n  },\n  \"project\": {\n    \"gt\": {\n      \"key\": {\n        \"field\": \"value\"\n      }\n    }\n  }\n}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            },
+            {
+              "name": "insertBulktestgit",
+              "request": {
+                "url": "http://localhost:3000/client/api/v1/testgit/addBulk",
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"data\": [\n    {\n      \"name\": \"Rita Tromp\",\n      \"enNo\": 572,\n      \"isDeleted\": true,\n      \"isActive\": false\n    }\n  ]\n}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            },
+            {
+              "name": "gettestgit",
+              "request": {
+                "url": "http://localhost:3000/client/api/v1/testgit/{{id}}",
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            },
+            {
+              "name": "updatetestgit",
+              "request": {
+                "url": "http://localhost:3000/client/api/v1/testgit/update/{{id}}",
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"name\": \"Rita Tromp\",\n  \"enNo\": 572,\n  \"isDeleted\": true,\n  \"isActive\": false\n}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            },
+            {
+              "name": "partialupdatetestgit",
+              "request": {
+                "url": "http://localhost:3000/client/api/v1/testgit/partial-update/{{id}}",
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"isActive\": true,\n  \"isDeleted\": false\n}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            },
+            {
+              "name": "softDeletetestgit",
+              "request": {
+                "url": "http://localhost:3000/client/api/v1/testgit/softDelete/{{id}}",
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            },
+            {
+              "name": "updateBulktestgit",
+              "request": {
+                "url": "http://localhost:3000/client/api/v1/testgit/updateBulk",
+                "method": "PUT",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"filter\": {\n    \"isActive\": true\n  },\n  \"data\": {\n    \"isDeleted\": false\n  }\n}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            },
+            {
+              "name": "deletetestgit",
+              "request": {
+                "url": "http://localhost:3000/client/api/v1/testgit/delete/{{id}}",
+                "method": "DELETE",
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json",
+                    "description": ""
+                  },
+                  {
+                    "key": "Authorization",
+                    "value": "Bearer {{token}}",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"isWarning\": true\n}"
+                },
+                "description": ""
+              },
+              "_postman_isSubFolder": true
+            }
+          ]
+        },
+        {
           "name": "user",
           "description": "user Model APIs",
           "item": [
@@ -450,7 +1044,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Margaret Yundt\",\n  \"password\": \"GTXcghy4Bm0xSjp\",\n  \"email\": \"Curtis.Bosco@yahoo.com\",\n  \"name\": \"Kirk Kiehn Sr.\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Miss Brendan Bogisich\",\n  \"password\": \"sDMKm0EUd5f9A6y\",\n  \"email\": \"Linnea_Armstrong16@gmail.com\",\n  \"name\": \"Dan Schaden DVM\",\n  \"isDeleted\": false,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -550,7 +1144,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Margaret Yundt\",\n      \"password\": \"GTXcghy4Bm0xSjp\",\n      \"email\": \"Curtis.Bosco@yahoo.com\",\n      \"name\": \"Kirk Kiehn Sr.\",\n      \"isDeleted\": true,\n      \"isActive\": false,\n      \"role\": 1\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Miss Brendan Bogisich\",\n      \"password\": \"sDMKm0EUd5f9A6y\",\n      \"email\": \"Linnea_Armstrong16@gmail.com\",\n      \"name\": \"Dan Schaden DVM\",\n      \"isDeleted\": false,\n      \"isActive\": false,\n      \"role\": 1\n    }\n  ]\n}"
                 },
                 "description": ""
               },
@@ -600,7 +1194,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Margaret Yundt\",\n  \"password\": \"GTXcghy4Bm0xSjp\",\n  \"email\": \"Curtis.Bosco@yahoo.com\",\n  \"name\": \"Kirk Kiehn Sr.\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Miss Brendan Bogisich\",\n  \"password\": \"sDMKm0EUd5f9A6y\",\n  \"email\": \"Linnea_Armstrong16@gmail.com\",\n  \"name\": \"Dan Schaden DVM\",\n  \"isDeleted\": false,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -746,7 +1340,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Margaret Yundt\",\n  \"password\": \"GTXcghy4Bm0xSjp\",\n  \"email\": \"Curtis.Bosco@yahoo.com\",\n  \"name\": \"Kirk Kiehn Sr.\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Miss Brendan Bogisich\",\n  \"password\": \"sDMKm0EUd5f9A6y\",\n  \"email\": \"Linnea_Armstrong16@gmail.com\",\n  \"name\": \"Dan Schaden DVM\",\n  \"isDeleted\": false,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -811,7 +1405,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"60d5d17a3ab3ea0e9cfc0839\",\n  \"newPassword\": \"YourNewPassword\"\n}"
+                  "raw": "{\n  \"userId\": \"60dda489ebd0ec00f6a02254\",\n  \"newPassword\": \"YourNewPassword\"\n}"
                 },
                 "description": ""
               },

@@ -71,6 +71,7 @@ const FORGOT_PASSWORD_WITH = {
   },
   EXPIRETIME: 20
 };
+const ADMIN_CUSTOM_ROUTES = [ '/HYTGT' ];   
 
 module.exports = {
   JWT,
@@ -81,5 +82,5 @@ module.exports = {
   MAX_LOGIN_RETRY_LIMIT,
   FORGOT_PASSWORD_WITH,
   LOGIN_ACCESS,
-        
+  ADMIN_CUSTOM_ROUTES
 };

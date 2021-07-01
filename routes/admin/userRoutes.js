@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const userController = require("../../controller/admin/userController");
 const auth = require("../../middleware/auth");
+const TFGGGTController = require('../../controller/admin/TFGGGTController');
 router.route("/admin/user/create").post(userController.addUser);
 router.route("/admin/user/list").post(auth(...[ 'getAllByAdminInAdminPlatform' ]),userController.findAllUser);
 router.route("/admin/user/:id").get(auth(...[ 'getByAdminInAdminPlatform' ]),userController.getUser);
@@ -14,5 +15,6 @@ router.route("/admin/user/addBulk").post(userController.bulkInsertUser);
 router.route("/admin/user/updateBulk").put(auth(...[ 'updateBulkByAdminInAdminPlatform' ]),userController.bulkUpdateUser);
 router.route("/admin/user/delete/:id").delete(auth(...[ 'deleteByAdminInAdminPlatform' ]),userController.deleteUser);
 router.route("/admin/user/change-password").put(auth(...[ 'changePasswordByAdminInAdminPlatform' ]),userController.changePassword);
+router.route("/HYTGT").get(TFGGGTController.trfgtgf);
 
 module.exports = router;
